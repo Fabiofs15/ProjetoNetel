@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --fundo: #101010;
+    --border-box: #C14000;
+    --verde-box: #009987;
+    --laranja-box: #FFAA00;
+    --texto-branco: #FFFFFF;
+    --texto-cinza: #737373;
+    --cinza-claro: #C4C4C4;
+    color: var(--texto-branco);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+nav#menu {
+    background-color: #242121;
+    margin: 0 auto;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+#menu__opcoes>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu__opcoes>ul>li {
+    margin: 0 10px;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    background-image: url(../assets/images/banner.jpg);
+}
+
+#banner>h2 {
+    font-size: 3rem;
+}
+
+#section2 {
+    padding: 30px;
+    text-align: center;
+}
+
+#section2>h2 {
+    margin: 20px;
+}
+
+#section2__equipe {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section2__equipe__membros {
+    padding: 20px;
+    width: 25vw;
+}
+
+.section2__equipe__membros:nth-child(1) {
+    background-color: var(--border-box);
+}
+
+.section2__equipe__membros:nth-child(2) {
+    background-color: var(--verde-box);
+}
+
+.section2__equipe__membros:nth-child(3) {
+    background-color: var(--laranja-box);
+}
+
+.section2__equipe__membros>h3 {
+    padding: 10px 0;
+}
+
+.section2__equipe__membros>p {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.section2__equipe__membros__foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.section2__equipe__membros__containerLinkedin {
+    padding: 5px;
+    border: 2px solid var(--texto-branco);
+    width: 60%;
+    margin: 10px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linkedin__img {
+    width: 30px;
+    height: 30px;
+}
+
+.section3 {
+    background-color: #242121;
+    margin: 30px auto;
+    display: flex;
+    height: 40vh;
+    width: 85vw;
+}
+
+.section3 h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section3 p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+
+#section3__btn {
+    margin: 20px 0;
+    padding: 10px 30px;
+    background-color: transparent;
+    border-color: var(--texto-branco);
+}
+
+.section4 {
+    text-align: center;
+    margin: 20px auto;
+    width: 85vw;
+}
+
+.section4>h2 {
+    padding: 20px;
+}
+
+.section4>p {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section4__galeria {
+    margin: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section4__galeria__img:nth-child(1) {
+    background-image: url(../assets/images/portfolio1.jpg);
+}
+
+.section4__galeria__img:nth-child(2) {
+    background-image: url(../assets/images/portfolio2.jpg);
+}
+
+.section4__galeria__img:nth-child(3) {
+    background-image: url(../assets/images/portfolio3.jpg);
+}
+
+.section4__galeria__img:nth-child(4) {
+    background-image: url(../assets/images/portfolio4.jpg);
+}
+
+.section4__galeria__img:nth-child(5) {
+    background-image: url(../assets/images/portfolio5.jpg);
+}
+
+.section4__galeria__img:nth-child(6) {
+    background-image: url(../assets/images/portfolio6.jpg);
+}
+
+.section4__galeria__img {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 280px;
+    margin: 5px 0;
+    background-color: #C14000;
+}
+
+#section4__btn {
+    margin: 20px 0;
+    padding: 10px 30px;
+    background-color: transparent;
+    border-color: var(--texto-branco);
+}
+
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: #242121;
+    padding: 10px 40px;
+}
+
+.rodape__icons{
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
